@@ -1,9 +1,14 @@
 import React from 'react';
 import './style.css';
+import Navbar from './Navbar';
 
 const App = () => {
     return (
-      <h1>Hello World !! </h1>
+    <div>
+      
+      <Navbar />
+    </div>
+    
     )
   }
 
